@@ -1,8 +1,9 @@
 ## 欢迎来到柳全龙的世界！
 
-You can use the [editor on GitHub](https://github.com/1617958603/1617958603.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+这是我搭建的第一个网站，欢迎大家指导！
+关于网站的具体建设我还不太清楚，还请大家多多指教。
+今后，我将在这个网站发布我的个人散文。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
