@@ -73,39 +73,27 @@
       <header class="article-header">
         <h1 class="article-title"><a href="01搜索工具article.html">everything与Listary搜索工具的比较</a></h1>
         <div class="article-meta"> <span class="item article-meta-time">
-          <time class="time" data-toggle="tooltip" data-placement="bottom" title="时间：2020-6-30  10:29:39"><i class="glyphicon glyphicon-time"></i> 2020-6-30 10:29:39</time>
+          <time class="time" data-toggle="tooltip" data-placement="bottom" title="时间：2020-10-50  10:29:39"><i class="glyphicon glyphicon-time"></i> 2020-7-5 10:50:39</time>
       </header>
       <article class="article-content">
-        <p><img data-original="images/banner/banner_03.jpg" src="images/banner/banner_03.jpg" alt="" /></p>
-        <p> 用php获取上个月最后一天的时间，有两种方法，都非常简单，详细实现源码如下： </p>
-        <pre class="prettyprint lang-php">&lt;?php
-  date_default_timezone_set("PRC"); //设置时区
-  //方法一
-  $times = date("d") * 24 * 3600;
-  echo date("Y-m-d H:i:s", time()-$times);
-  echo '&lt;br/&gt;';
-  //方法二
-  $day = date('d');
-  echo date("Y-m-d H:i:s", strtotime(-$day.' day'));
-?&gt;</pre>
-        <p> 方法一是利用当前时间离本月初有多少时间，然后用当前时间减去这个时间差，就可以得到上月最后一天了。 </p>
-        <p> 方法二是先计算本月多少号，即离月初有多少天，然后用strtotime计算出$day天前的时间戳，也可以得到上个月的最后一天。 </p>
-        <p class="article-copyright hidden-xs">未经允许不得转载：<a href="">异清轩博客</a> » <a href="article.html">php如何判断一个日期的格式是否正确</a></p>
+        <p><img data-original="images/01搜索工具/01搜索工具00.jpg" src="images/01搜索工具/01搜索工具00.jpg" alt="" /></p>
+        <p>想必很多人都用过Windows自带的文件搜索系统，龟速的搜索简直是令人发狂。为了提升文件搜索效率，在此推荐两款本地文件搜索软件：everything和Listary。</p>
+        <p><strong>everything:</strong></p>
+        <p><img src="images/01搜索工具/01搜索工具01.png">Everything是一个私有的免费Windows桌面搜索引擎，可以在NTFS卷上快速地根据名称查找文件和目录。由澳大利亚人大卫·卡彭特（David Carpenter）开发。2009年10月30日，在拥有70,000用户的Wakoopa网站排名中，Everything在1757个应用程序中排名第857，超越了老牌压缩工具WinZip。直到2013年，Everything仍处于开发状态。</p>
+        <p><strong>Listary：</strong></p>
+        <p><img src="images/01搜索工具/01搜索工具02.png">Listary是Windows的桌面搜索实用程序，可以在计算机上搜索文件。它与文件浏览器，任务管理器，注册表编辑器，Windows桌面以及“打开...”或“保存...” 对话框中的项目一起使用。Listary已获得免费许可以供个人使用。</p>
+        <p><strong>比较：两个软件就搜索速度上没有什么区别都很快，listary界面更简洁，只用双击ctrl就能呼出搜索框。不便的是搜索出来的文件，并不能按照名称、修改时间、大小、等排序，显得非常杂乱。尤其像方案编辑人员，方案N多个修改版本的人，简直是噩梦。相对这一点ever thing就很好排序。看个人需求做取舍吧。总体说来两个都很不错。</strong></p>
+        <p><strong style="color: red">下载地址</strong>everything官网地址：http://www.voidtools.com/</p>
+        <p><strong style="color: red"><pre>下载地址</strong>listary官网地址：https://www.listary.com/download                Listary绿色版下载地址：https://pc.qq.com/detail/12/detail_23272.html</pre>  </p>
       </article>
-      <div class="article-tags">标签：<a href="" rel="tag">PHP</a></div>
+      <div class="article-tags">标签：<a href="" rel="tag">实用工具</a></div>
       <div class="relates">
         <div class="title">
           <h3>相关推荐</h3>
         </div>
         <ul>
-          <li><a href="article.html">php如何判断一个日期的格式是否正确</a></li>
-          <li><a href="article.html">php如何判断一个日期的格式是否正确</a></li>
-          <li><a href="article.html">php如何判断一个日期的格式是否正确</a></li>
-          <li><a href="article.html">php如何判断一个日期的格式是否正确</a></li>
-          <li><a href="article.html">php如何判断一个日期的格式是否正确</a></li>
-          <li><a href="article.html">php如何判断一个日期的格式是否正确</a></li>
-          <li><a href="article.html">php如何判断一个日期的格式是否正确</a></li>
-          <li><a href="article.html">php如何判断一个日期的格式是否正确</a></li>
+          <li><a href="04office2010与Visioarticle.html">Ofiice2010与Visio无法同时安装的问题</a></li>
+          <li><a href="03word插件article.html">重装office后，插件再次嵌入到office中的解决办法</a></li>
         </ul>
       </div>
       <div class="title" id="comment">
