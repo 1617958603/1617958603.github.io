@@ -67,7 +67,20 @@
       <header class="article-header">
         <h1 class="article-title"><a href="01Py初学article.html">凡人修仙传红颜介绍</a></h1>
         <div class="article-meta"> <span class="item article-meta-time">
-          <time class="time" data-toggle="tooltip" data-placement="bottom" title="时间：2020-6-30  10:29:39"><i class="glyphicon glyphicon-time"></i> 2020-7-1 11:29:39</time>
+          <time class="time" data-toggle="tooltip" data-placement="bottom" title="时间：2020-6-30  10:29:39"><i class="glyphicon glyphicon-time"></i> <script type="text/javascript">
+    window.onload=function(){
+        setInterval(function(){
+            var date=new Date();
+            var year=date.getFullYear(); //获取当前年份
+            var mon=date.getMonth()+1; //获取当前月份
+            var da=date.getDate(); //获取当前日
+            var day=date.getDay(); //获取当前星期几
+            var h=date.getHours(); //获取小时
+            var m=date.getMinutes(); //获取分钟
+            var s=date.getSeconds(); //获取秒
+            var d=document.getElementById('Date');
+            d.innerHTML='当前时间:'+year+'年'+mon+'月'+da+'日'+'星期'+day+' '+h+':'+m+':'+s;  },1000)  }
+</script></time>
       </header>
       <article class="article-content">
         <p><img data-original="images/凡人修仙.jpg" src="images/凡人修仙.jpg" alt="" /></p>
